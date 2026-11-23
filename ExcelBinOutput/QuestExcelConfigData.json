@@ -1027751,8 +1027751,11 @@
     "failExec": [],
     "beginExec": [
       {
-        "param": [],
-        "param_str": ""
+        "param": [
+          "3",
+          "133004902,2"
+        ],
+        "type": "QUEST_EXEC_REFRESH_GROUP_SUITE"
       }
     ],
     "exclusiveNpcList": [
