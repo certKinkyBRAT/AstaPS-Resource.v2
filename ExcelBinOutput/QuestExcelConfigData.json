@@ -68072,9 +68072,17 @@
     "guideTipsTextMapHash": 0,
     "acceptCond": [
       {
+        "type": "QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER",
+        "param": [
+          12,
+          0
+        ],
+        "param_str": ""
+      },
+      {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          30904,
           3
         ],
         "param_str": ""
@@ -68126,7 +68134,8 @@
       1049,
       3163
     ],
-    "exclusiveNpcPriority": 1100
+    "exclusiveNpcPriority": 1100,
+    "acceptCondComb": "LOGIC_AND"
   },
   {
     "json_file": "11000.json",
@@ -68421,7 +68430,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          1100005,
           3
         ],
         "param_str": ""
@@ -68712,7 +68721,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          1100104,
           3
         ],
         "param_str": ""
@@ -69183,7 +69192,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          1100207,
           3
         ],
         "param_str": ""
@@ -69459,7 +69468,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          1100304,
           3
         ],
         "param_str": ""
@@ -69498,12 +69507,22 @@
       "autoGuide": "QUEST_GUIDE_AUTO_NONE"
     },
     "isRewind": true,
-    "finishExec": [],
+    "finishExec": [
+      {
+        "param": [
+          "13"
+        ],
+        "type": "QUEST_EXEC_GRANT_TRIAL_AVATAR"
+      }
+    ],
     "failExec": [],
     "beginExec": [
       {
-        "param": [],
-        "param_str": ""
+        "param": [
+          "3",
+          "125"
+        ],
+        "type": "QUEST_EXEC_UNLOCK_POINT"
       }
     ],
     "exclusiveNpcList": [
@@ -69676,7 +69695,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          1100498,
+          1100401,
           3
         ],
         "param_str": ""
@@ -69886,7 +69905,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          1100403,
           3
         ],
         "param_str": ""
@@ -70330,7 +70349,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          1100507,
+          1100506,
           3
         ],
         "param_str": ""
@@ -70511,6 +70530,14 @@
           3
         ],
         "param_str": ""
+      },
+      {
+        "type": "QUEST_COND_STATE_EQUAL",
+        "param": [
+          1100509,
+          4
+        ],
+        "param_str": ""
       }
     ],
     "finishCond": [
@@ -70577,7 +70604,8 @@
       1049,
       3163
     ],
-    "exclusiveNpcPriority": 1100
+    "exclusiveNpcPriority": 1100,
+    "acceptCondComb": "LOGIC_OR"
   },
   {
     "json_file": "11005.json",
@@ -70806,8 +70834,10 @@
     "failExec": [],
     "beginExec": [
       {
-        "param": [],
-        "param_str": ""
+        "param": [
+          "8"
+        ],
+        "type": "QUEST_EXEC_ACTIVE_ITEM_GIVING"
       }
     ],
     "exclusiveNpcList": [
@@ -70907,7 +70937,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          1100514,
+          1100503,
           3
         ],
         "param_str": ""
@@ -71074,7 +71104,13 @@
       1049,
       3163
     ],
-    "exclusiveNpcPriority": 1100
+    "exclusiveNpcPriority": 1100,
+    "gainItems": [
+      {
+        "id": 109404,
+        "count": 1
+      }
+    ]
   },
   {
     "json_file": "11005.json",
