@@ -1033715,7 +1033715,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          35104,
           3
         ],
         "param_str": ""
