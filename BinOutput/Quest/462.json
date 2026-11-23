@@ -422,7 +422,7 @@
           "type": "QUEST_CONTENT_OBTAIN_ITEM"
         }
       ],
-      "order": 6,
+      "order": 5,
       "guide": {
         "param": [
           "1004"
@@ -508,7 +508,7 @@
           "type": "QUEST_CONTENT_OBTAIN_ITEM"
         }
       ],
-      "order": 7,
+      "order": 6,
       "guide": {
         "param": [
           "Q462Treasure1"
@@ -573,7 +573,7 @@
           "type": "QUEST_CONTENT_COMPLETE_TALK"
         }
       ],
-      "order": 5,
+      "order": 7,
       "isRewind": true,
       "descTextMapHash": 1882401687,
       "subId": 46210,

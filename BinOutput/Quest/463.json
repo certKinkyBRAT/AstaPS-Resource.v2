@@ -293,7 +293,7 @@
       "npcId": [
         1004
       ],
-      "order": 6,
+      "order": 7,
       "isMpBlock": true,
       "failCond": [
         {
@@ -365,7 +365,7 @@
       "npcId": [
         1004
       ],
-      "order": 7,
+      "order": 8,
       "isMpBlock": true,
       "banType": "BAN_GROUP_TRANSPORT_ONLY",
       "finishParent": true,
@@ -393,7 +393,7 @@
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA"
         }
       ],
-      "order": 8,
+      "order": 6,
       "descTextMapHash": 1994876831,
       "subId": 46306,
       "mainId": 463,

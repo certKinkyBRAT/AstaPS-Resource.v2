@@ -1027017,7 +1027017,7 @@
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
           46103,
-          3
+          2
         ],
         "param_str": ""
       }
@@ -1027081,8 +1027081,8 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46104,
-          3
+          46103,
+          2
         ],
         "param_str": ""
       }
@@ -1027146,8 +1027146,8 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46105,
-          3
+          46103,
+          2
         ],
         "param_str": ""
       }
@@ -1027211,7 +1027211,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46106,
+          46103,
           3
         ],
         "param_str": ""
@@ -1027278,7 +1027278,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          46107,
           3
         ],
         "param_str": ""
@@ -1027557,7 +1027557,7 @@
     "json_file": "462.json",
     "subId": 46210,
     "mainId": 462,
-    "order": 5,
+    "order": 7,
     "subIdSet": 46210,
     "showType": "QUEST_HIDDEN",
     "descTextMapHash": 1882401687,
@@ -1027622,7 +1027622,7 @@
     "json_file": "462.json",
     "subId": 46205,
     "mainId": 462,
-    "order": 6,
+    "order": 5,
     "subIdSet": 46205,
     "showType": "QUEST_SHOW",
     "descTextMapHash": 4164179863,
@@ -1027632,7 +1027632,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46210,
+          46203,
           3
         ],
         "param_str": ""
@@ -1027698,7 +1027698,7 @@
     "json_file": "462.json",
     "subId": 46208,
     "mainId": 462,
-    "order": 7,
+    "order": 6,
     "subIdSet": 46208,
     "showType": "QUEST_SHOW",
     "descTextMapHash": 4049784823,
@@ -1027775,7 +1027775,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46208,
+          46210,
           3
         ],
         "param_str": ""
@@ -1027840,7 +1027840,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46206,
+          46210,
           3
         ],
         "param_str": ""
@@ -1027991,7 +1027991,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          0,
+          46206,
           3
         ],
         "param_str": ""
@@ -1028334,7 +1028334,7 @@
     "json_file": "463.json",
     "subId": 46304,
     "mainId": 463,
-    "order": 6,
+    "order": 7,
     "subIdSet": 46304,
     "showType": "QUEST_SHOW",
     "descTextMapHash": 2478270343,
@@ -1028344,7 +1028344,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46303,
+          46306,
           3
         ],
         "param_str": ""
@@ -1028404,15 +1028404,15 @@
     "failExec": [
       {
         "param": [
-          "46302"
-        ],
-        "type": "QUEST_EXEC_ROLLBACK_QUEST"
-      },
-      {
-        "param": [
           "6"
         ],
         "type": "QUEST_EXEC_REMOVE_TRIAL_AVATAR"
+      },
+      {
+        "param": [
+          "46302"
+        ],
+        "type": "QUEST_EXEC_ROLLBACK_QUEST"
       }
     ],
     "beginExec": [
@@ -1028431,7 +1028431,7 @@
     "json_file": "463.json",
     "subId": 46305,
     "mainId": 463,
-    "order": 7,
+    "order": 8,
     "subIdSet": 46305,
     "showType": "QUEST_HIDDEN",
     "descTextMapHash": 1488540647,
@@ -1028533,7 +1028533,7 @@
     "json_file": "463.json",
     "subId": 46306,
     "mainId": 463,
-    "order": 8,
+    "order": 6,
     "subIdSet": 46306,
     "showType": "QUEST_HIDDEN",
     "descTextMapHash": 1994876831,
@@ -1028543,8 +1028543,8 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46305,
-          3
+          46303,
+          2
         ],
         "param_str": ""
       }
@@ -1028553,7 +1028553,7 @@
       {
         "param_str": "",
         "param": [
-          0,
+          46303,
           0
         ],
         "count": 0,
@@ -1028616,7 +1028616,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46306,
+          46304,
           3
         ],
         "param_str": ""
