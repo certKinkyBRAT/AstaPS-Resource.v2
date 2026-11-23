@@ -1,5 +1,7 @@
 # AstaPS Resource
 
+NOTE: This is a vibecoded/slopcoded fork of AstaPS-Resources primarily dedicated to fixing questing. I have little coding experience myself and this is mostly just a project for myself. If your not interested in vibecoded projects, this is not for you.
+
 Version-bound resource data used by AstaPS. Characters, weapons, monsters, scene points, abilities, and talents have received a 7.2 runtime update on the existing 7.1.0 baseline.
 
 This update adds two characters, one weapon, 109 monster definitions, and 99 overworld points, together with their runtime dependencies. See the [update notes](docs/runtime-7.2-update.md), [manifest](docs/runtime-7.2-manifest.json), and [validation results](docs/runtime-7.2-validation.json) for coverage and pending definitions.
