@@ -1027543,8 +1027543,11 @@
     "failExec": [],
     "beginExec": [
       {
-        "param": [],
-        "param_str": ""
+        "param": [
+          "3",
+          "133004902,2"
+        ],
+        "type": "QUEST_EXEC_REFRESH_GROUP_SUITE"
       }
     ],
     "exclusiveNpcList": [
@@ -1027557,7 +1027560,7 @@
     "json_file": "462.json",
     "subId": 46210,
     "mainId": 462,
-    "order": 7,
+    "order": 5,
     "subIdSet": 46210,
     "showType": "QUEST_HIDDEN",
     "descTextMapHash": 1882401687,
@@ -1027567,7 +1027570,7 @@
       {
         "type": "QUEST_COND_STATE_EQUAL",
         "param": [
-          46204,
+          46203,
           3
         ],
         "param_str": ""
@@ -1027622,7 +1027625,7 @@
     "json_file": "462.json",
     "subId": 46205,
     "mainId": 462,
-    "order": 5,
+    "order": 6,
     "subIdSet": 46205,
     "showType": "QUEST_SHOW",
     "descTextMapHash": 4164179863,
@@ -1027679,7 +1027682,7 @@
       "guideScene": 1004,
       "autoGuide": "QUEST_GUIDE_AUTO_NONE"
     },
-    "isRewind": false,
+    "isRewind": true,
     "finishExec": [],
     "failExec": [],
     "beginExec": [
@@ -1027698,7 +1027701,7 @@
     "json_file": "462.json",
     "subId": 46208,
     "mainId": 462,
-    "order": 6,
+    "order": 7,
     "subIdSet": 46208,
     "showType": "QUEST_SHOW",
     "descTextMapHash": 4049784823,
@@ -1027751,11 +1027754,8 @@
     "failExec": [],
     "beginExec": [
       {
-        "param": [
-          "3",
-          "133004902,2"
-        ],
-        "type": "QUEST_EXEC_REFRESH_GROUP_SUITE"
+        "param": [],
+        "param_str": ""
       }
     ],
     "exclusiveNpcList": [
