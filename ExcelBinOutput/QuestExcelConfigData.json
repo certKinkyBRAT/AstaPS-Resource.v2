@@ -70325,8 +70325,11 @@
     "failExec": [],
     "beginExec": [
       {
-        "param": [],
-        "param_str": ""
+        "param": [
+          "3",
+          "133002312,2"
+        ],
+        "type": "QUEST_EXEC_REFRESH_GROUP_SUITE"
       }
     ],
     "exclusiveNpcList": [
@@ -71108,6 +71111,22 @@
     "gainItems": [
       {
         "id": 109404,
+        "count": 1
+      },
+      {
+        "id": 100026,
+        "count": 3
+      },
+      {
+        "id": 100027,
+        "count": 2
+      },
+      {
+        "id": 100018,
+        "count": 2
+      },
+      {
+        "id": 110005,
         "count": 1
       }
     ]
