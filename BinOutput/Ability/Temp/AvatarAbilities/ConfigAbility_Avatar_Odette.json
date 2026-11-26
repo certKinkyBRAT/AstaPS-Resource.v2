@@ -2375,13 +2375,6 @@
               "gadgetID": 41150002,
               "canBeHandledOnRecover": true,
               "lifeByOwnerV2": true
-            },
-            {
-              "$type": "AttachModifier",
-              "actorIceSubHurtDelta": -1,
-              "doOffStage": false,
-              "modifierName": "TickTriggerPartner",
-              "canBeHandledOnRecover": true
             }
           ],
           "IAKPBCLBNKF": -1,
@@ -3703,41 +3696,6 @@
           "minus_one": -1,
           "IAKPBCLBNKF": -1,
           "isUnique": true,
-          "isLimitedProperties": true
-        },
-        "TickTriggerPartner": {
-          "onAdded": [
-            {
-              "$type": "TriggerThinkInterval",
-              "actorIceSubHurtDelta": -1,
-              "doOffStage": false,
-              "canBeHandledOnRecover": true
-            }
-          ],
-          "thinkInterval": 0.009999999776482582,
-          "duration": 0.10000000149011612,
-          "elementDurability": 100,
-          "onThinkIntervalIsFixedUpdate": true,
-          "minus_one": -1,
-          "IAKPBCLBNKF": -1,
-          "onThinkInterval": [
-            {
-              "$type": "TriggerAbility",
-              "abilitySpecials": {
-                "AbilityTriggerType": 5
-              },
-              "CFPNOMHBGIA": true,
-              "actorIceSubHurtDelta": -1,
-              "doOffStage": true,
-              "abilityName": "Avatar_Odette_ElementalArt_Partner_MoveController",
-              "otherTargets": {
-                "$type": "SelectTargetsByChildren",
-                "configID": 41150002
-              },
-              "target": "Other",
-              "canBeHandledOnRecover": true
-            }
-          ],
           "isLimitedProperties": true
         }
       },
