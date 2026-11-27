@@ -10592,8 +10592,14 @@
     ],
     "uniqueDescTextMapHash": 1348645325,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_S_Yoimiya_01",
     "descTextMapHash": 3438910799,
@@ -10616,8 +10622,14 @@
     ],
     "uniqueDescTextMapHash": 105236725,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_S_Yoimiya_02",
     "descTextMapHash": 2102275567,
@@ -10641,8 +10653,14 @@
     ],
     "uniqueDescTextMapHash": 2801165709,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_U_Yoimiya_01",
     "descTextMapHash": 3229313215,
@@ -10666,8 +10684,14 @@
     ],
     "uniqueDescTextMapHash": 3871099149,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_S_Yoimiya_03",
     "descTextMapHash": 2299629615,
@@ -10691,8 +10715,14 @@
     ],
     "uniqueDescTextMapHash": 26063237,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_U_Yoimiya_02",
     "descTextMapHash": 1007404127,
@@ -10716,8 +10746,14 @@
     ],
     "uniqueDescTextMapHash": 1490533877,
     "addProps": [
-      {},
-      {}
+      {
+        "value": 0.05,
+        "type": "FIGHT_PROP_CRITICAL"
+      },
+      {
+        "value": 0.15,
+        "type": "FIGHT_PROP_CRITICAL_HURT"
+      }
     ],
     "icon": "UI_Talent_S_Yoimiya_04",
     "descTextMapHash": 1202044079,

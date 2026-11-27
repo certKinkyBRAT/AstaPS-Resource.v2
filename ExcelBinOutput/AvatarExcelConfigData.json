@@ -1590,6 +1590,7 @@
     ],
     "KOKPFLNIEFM": "313788249693385670",
     "chargeEfficiency": 1,
+    "elementMastery": 125,
     "bodyType": "BODY_MALE",
     "iconName": "UI_AvatarIcon_Tartaglia",
     "featureTagGroupID": 10000033,
