@@ -2664,7 +2664,7 @@
     ],
     "ICHCEGHCFJE": 1813152017,
     "skillDepotId": 4901,
-    "criticalHurt": 0.875,
+    "criticalHurt": 1.0,
     "deformationMeshPathHash": "16843554909179268631",
     "firstPropPriority": "FIGHT_PROP_CRITICAL",
     "initialWeapon": 15101,
